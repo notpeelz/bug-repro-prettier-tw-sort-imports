@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext",
+      "ESNext.Intl",
+      "ES2017.Intl",
+      "ES2018.Intl"
+    ],
+    "paths": {
+      "@lib/*": [
+        "./lib/*"
+      ]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "moduleResolution": "Node"
+  },
+  "include": [
+    "**/*.d.ts",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.mjs",
+    "**/*.ts",
+    "**/*.cts",
+    "**/*.mts",
+    "**/*.jsx",
+    "**/*.cjsx",
+    "**/*.mjsx",
+    "**/*.tsx",
+    "**/*.ctsx",
+    "**/*.mtsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
