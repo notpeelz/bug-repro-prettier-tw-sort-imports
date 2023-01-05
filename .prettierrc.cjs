@@ -1,6 +1,9 @@
 /** @type {import("prettier").Config} */
 module.exports = {
-  plugins: ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"],
+  plugins: [
+    require.resolve("prettier-plugin-organize-imports"),
+    require.resolve("prettier-plugin-tailwindcss"),
+  ],
   pluginSearchDirs: false,
   singleQuote: false,
   jsxSingleQuote: false,
